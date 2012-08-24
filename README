@@ -24,3 +24,14 @@ value = preference.getValue("c")
  
 preference.save{d = {1,"2",true}}
 value = preference.getValue("d")
+
+
+
+
+This library is specifically for lua as used in Corona SDK.
+For general using in Lua,
+replace 
+	local path = system.pathForFile( fileName, system.DocumentsDirectory )
+by 
+	local path = fileName
+in 2 places in preference.lua file

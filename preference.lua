@@ -56,6 +56,10 @@ local preference = {}
 local system = system
 local type = type
 local tonumber = tonumber
+local pairs = pairs 
+local print = print 
+local pairs = pairs 
+local io = io
  
 --constants
 local separator = "||__||"
