@@ -2,7 +2,7 @@ local preference = require "preference"
  
 --Store numbers
 preference.save{a=1}
-value = preference.getValue("a
+value = preference.getValue("a")
 print("Retrieving number : ",value)
  
 --Store strings
